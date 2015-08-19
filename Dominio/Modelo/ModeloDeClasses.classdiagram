@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="be4cab5a-c61f-461a-bcc2-9690a94b7d88" name="ModeloDeClasses" linkedPackageId="aa77edea-fd5f-43f3-afd4-1411ba18eb59" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="6870d520-0e18-49d5-b2ca-3dbdbe7d472c">
+      <profileInstance Id="a33cbc17-902b-4fa0-b112-463ab9b515cd" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="fb5d8e80-18b0-434e-a5d2-c108ea5ae74f">
+      <profileInstance Id="19c9db19-28b5-45a9-b755-606906c419a8" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="4868376f-4f16-4d26-8d99-6ca37b98eb08" name="Imovel" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="e430c237-fa1d-4b9a-9c28-2bf52452e0e6" />
+        <targetEnds>
+          <association Id="02f6580a-e27a-43fd-bfb5-002db66f1c2f" isDerived="false" sourceEndRoleName="Imovel" targetEndRoleName="Tipo de Imovel" isLeaf="false" isAbstract="false">
+            <enumerationMoniker Id="ca5c437d-1ad6-48e7-85fd-408c922dbc33" LastKnownName="Tipo de Imovel" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="640018c9-ae91-425f-bcb5-b6f2273682a7" name="Imovel" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="aae7d4ad-5c28-4bfa-ab15-42bfd890d255" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b4e21a6d-7b4f-44a8-9b3e-811e4e488ff8" name="Tipo de Imovel" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="ac16c98d-4ee2-41e6-b953-5a2f31690d6f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="f188085b-ca6d-406f-9ea7-e2953495549a" />
+          </association>
+        </targetEnds>
+        <ownedAttributesInternal>
+          <property Id="2a98338e-29e4-4ddf-9616-eade9658de72" name="Quartos" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="0b9fdc7a-4533-43f8-9d28-eef80b29195a" />
+          </property>
+          <property Id="6fc68a8d-e1d1-4edf-bcc6-bc4d3147d6c6" name="EnderecoImovel" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="88fa4f0d-a318-4a30-abc8-a40366b1c08a" />
+          </property>
+          <property Id="9632b670-034d-4af4-96a2-9193043572ae" name="M2Contrucao" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="6b53cd4b-11f6-4283-a946-54057e807f89" />
+          </property>
+          <property Id="c5e09bf5-bce2-4ee6-b12a-787fe348f593" name="M2Terreno" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="91eee129-de64-46c8-a6b5-d88089007bbe" />
+          </property>
+          <property Id="22ebe9f0-829c-4a15-ab6c-eb3fac3ec1e6" name="Descricao" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="71ec97ea-c1f7-4dfa-b3f5-fa51ff0ee7c6" />
+          </property>
+          <property Id="5af5362e-6d3a-4615-bd6e-0af82a519e72" name="Valor" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="0480b348-5ebf-4a66-9bab-b2e5796fd562" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <enumeration Id="ca5c437d-1ad6-48e7-85fd-408c922dbc33" name="Tipo de Imovel" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="4a4b5ba2-e80c-4026-8331-e291e239144d" />
+        <ownedLiterals>
+          <enumerationLiteral Id="b90778ee-8761-461b-b668-507cdf94cef1" name="Casa">
+            <elementDefinition Id="12d30cc7-729d-422e-8eb9-b3a072803570" />
+          </enumerationLiteral>
+          <enumerationLiteral Id="f1ec3c10-0a0c-4842-a6a0-36381d507a16" name="Apartamento">
+            <elementDefinition Id="1424795f-5811-42d5-9975-8c240603d296" />
+          </enumerationLiteral>
+          <enumerationLiteral Id="76143e85-49a7-4b33-a5ae-984c4e10a665" name="Sitios">
+            <elementDefinition Id="3dacd146-ce07-4554-9dcd-c1c6e86daca3" />
+          </enumerationLiteral>
+        </ownedLiterals>
+      </enumeration>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="ec961ad6-9649-4026-a333-1d2fbd802b3a" name="Proprietario" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="8efd57bb-4107-4834-83f4-837104ba138f" />
+        <ownedAttributesInternal>
+          <property Id="0e8ea940-b951-463d-a280-d31d9a5bf8dc" name="Nome" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="76855b37-5b57-4e30-b8a1-41cf0cbbfa5f" />
+          </property>
+          <property Id="b6bf4aa1-467e-4c73-a2c0-fc464b1a1499" name="EnderecoProprietario" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="422aaccc-22e7-4a2c-bca6-3fa5fb0efaf6" />
+          </property>
+          <property Id="5931866a-e5d7-406b-92e4-d1f77bb5b640" name="Telefone" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="0aa89b5a-38b1-4453-8b95-6ea7aadde0fd" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="1c3099a6-72c5-4de5-9343-ca90189bbc37" name="Imagem" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="021a205b-b60c-4989-99fe-ba1c5e4a8524" />
+        <ownedAttributesInternal>
+          <property Id="3bbf623c-af4a-4ac5-96ef-14f4ef56689d" name="Arquivo" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="c469ff0b-613f-4904-a872-75fc49fb4251" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="aa77edea-fd5f-43f3-afd4-1411ba18eb59" name="Modelo">
+    <elementDefinition Id="42d2f3a3-752c-4034-8ee5-9cb26d2285fa" />
+  </package>
+</logicalClassDesignerModel>
